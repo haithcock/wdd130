@@ -1,3 +1,7 @@
+body {
+    background-color: purple;
+}
+
 aside {
   width: 20rem;
   margin: 1rem;
@@ -21,7 +25,5 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
-body {
-    background-color: purple;
-}
+
 
