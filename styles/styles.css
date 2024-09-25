@@ -45,18 +45,11 @@ img {
   height: auto;
   display: block;
 }
+
 h1 {
   /* Add styles for the h1 heading */
   font-size: 2em;
   color: #333;
   margin-bottom: 20px;
 }
-
-nav {
-  /* Add styles for the navigation section */
-  background-color: #f0f0f0;
-  padding: 10px;
-}
-
-
 
