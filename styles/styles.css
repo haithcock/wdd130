@@ -1,4 +1,12 @@
+nav {
+    background-color: steel blue;
+    padding:10px;
+}
 
+nav a {
+  color: white;
+  padding: 10px;
+}
 aside {
   width: 20rem;
   margin: 1rem;
@@ -48,13 +56,6 @@ nav {
   /* Add styles for the navigation section */
   background-color: #f0f0f0;
   padding: 10px;
-}
-nav a {
-  /* Add styles for anchor links within the navigation */
-  text-decoration: none;
-  color: #333;
-  padding: 10px;
-  display: inline-block;
 }
 
 
