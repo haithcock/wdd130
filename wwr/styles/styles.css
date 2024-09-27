@@ -20,3 +20,10 @@ a {
 button {
   background-color: var(--accent2-color);
 }
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
