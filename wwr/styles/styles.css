@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #f2d7ee;
+  --secondary-color: #d3bcc0;
+  --accent1-color: #a5668b;
+  --accent2-color: #69306d;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+header {
+  background-color: var(--secondary-color);
+}
+
+a {
+  color: var(--accent1-color);
+}
+
+button {
+  background-color: var(--accent2-color);
+}
