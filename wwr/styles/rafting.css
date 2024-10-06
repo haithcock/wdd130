@@ -16,6 +16,10 @@ header {
   display: grid;
   grid-template-rows: auto;
 }
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 a {
   color: var(--accent1-color);
