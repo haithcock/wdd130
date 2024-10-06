@@ -53,6 +53,9 @@ h1, h2, h3 {
   float: right;
   margin-left: 10px; /* Adjust as needed */
 }
+a {
+  text-decoration: none;
+}
 a img {
   text-decoration: none;
 }
