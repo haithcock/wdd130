@@ -14,7 +14,7 @@ body {
 header {
   background-color: var(--secondary-color);
   display: grid;
-  grid-template-row; 100% 
+  grid-template-rows: auto;
 }
 
 a {
