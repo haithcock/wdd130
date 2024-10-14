@@ -96,6 +96,13 @@ footer {
     background-color: #444;
     color: #fff;
 }
+.happyemp1 img,
+.happyemp2 img,
+.happyemp3 img {
+    width: 20%;
+    height: auto;
+}
+
 
 
 
