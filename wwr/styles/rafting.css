@@ -3,7 +3,7 @@
 :root {
   --primary-color: #f2d7ee;
   --secondary-color: #d3bcc0;
-  --accent1-color: #a5668b;
+  --accent1-color: #52324a;
   --accent2-color: #69306d;
 }
 
@@ -31,6 +31,7 @@ nav {
 
 a {
   color: var(--accent1-color);
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -164,5 +165,3 @@ button {
 button:hover {
   background-color: #0056b3;
 }
-
-
