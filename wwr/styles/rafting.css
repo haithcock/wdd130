@@ -46,6 +46,7 @@ a:hover {
 .hero {
   position: relative;
   text-align: center;
+  padding: 20px;
 }
 
 .hero-image {
@@ -54,28 +55,51 @@ a:hover {
 }
 
 .hero h1 {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-  font-size: 3em;
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+  color: black;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 2.5em;
+  margin-bottom: 20px;
 }
 
 .hero article {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  width: 300px;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: 1px solid #c0c0c0;
+  padding: 20px;
+  margin: 20px;
 }
 
 .hero article img {
-  float: right;
-  margin-left: 10px;
+  width: 100px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.white-water {
+  background-color: #ffffff;
+  border: 1px solid #c0c0c0;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.white-water p {
+  flex: 1;
+  text-align: justify;
+}
+
+.white-water img {
+  width: 100px;
+  height: auto;
 }
 
 .history {
@@ -92,13 +116,15 @@ a:hover {
   gap: 20px;
 }
 
-.history-content img {
-  width: 135px;
+.history-content img.image-middle {
+  width: 150px;
   height: auto;
+  margin: 0 20px;
 }
 
 .history-content .text {
   width: 30%;
+  text-align: justify;
 }
 
 .adventure {
