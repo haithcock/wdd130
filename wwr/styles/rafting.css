@@ -86,14 +86,19 @@ a:hover {
 
 .history-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-.history-image {
-  width: 60%;
+.history-content img {
+  width: 100px;
   height: auto;
-  margin-top: 20px;
+}
+
+.history-content .text {
+  width: 30%;
 }
 
 .adventure {
