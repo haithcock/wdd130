@@ -241,11 +241,13 @@ button:hover {
 }
 
 #homepage  .hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
-  display: block;
-  position: relative;
-  margin: 0;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 #homepage  .hero h1 {
