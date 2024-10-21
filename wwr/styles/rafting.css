@@ -238,7 +238,9 @@ button:hover {
   position: relative;
   width: 100vw;
   height: 70vh;
-  overflow: hidden;  
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 #homepage  .hero-image {
