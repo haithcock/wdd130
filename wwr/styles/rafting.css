@@ -256,7 +256,6 @@ button:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 0;
 }
 
 #homepage  .hero h1 {
