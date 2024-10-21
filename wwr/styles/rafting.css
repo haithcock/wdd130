@@ -196,4 +196,80 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+#aboutpage  .hero {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+}
+
+#aboutpage  .hero-image {
+  width: 100%;
+  height: auto;
+}
+
+#aboutpage  .hero h1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+  color: black;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#aboutpage  .hero article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: 1px solid #c0c0c0;
+  padding: 20px;
+  margin: 20px;
+}
+
+#aboutpage  .hero article img {
+  width: 100px;
+  height: auto;
+  margin-left: 20px;
+}
+#homepage  .hero {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+}
+
+#homepage  .hero-image {
+  width: 100%;
+  height: auto;
+}
+
+#homepage  .hero h1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+  color: black;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#homepage  .hero article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: 1px solid #c0c0c0;
+  padding: 20px;
+  margin: 20px;
+}
+
+#homepage  .hero article img {
+  width: 100px;
+  height: auto;
+  margin-left: 20px;
+}
 
