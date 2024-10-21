@@ -243,14 +243,17 @@ button:hover {
 #homepage  .hero-image {
   width: 100%;
   height: auto;
+  display: block;
+  position: relative;
+  margin: 0;
 }
 
 #homepage  .hero h1 {
-  position: relative;
-  top: 0;
-  left: 0;
-  transform: none;
-  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%;
+  color: white;
   background-color: transparent;
   padding: 10px;
   font-size: 2.5em;
