@@ -258,15 +258,17 @@ button:hover {
   object-fit: cover;
 }
 
-#homepage  .hero h1 {
-  position: relative;
+#homepage .hero h1 {
+  position: absolute;
+  top: 20vh;
+  left: 50%;
+  transform: translateX(-50%);
   color: white;
   font-size: 4em;
   text-align: center;
-  padding-top: 20vh;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  z-index: 1;
 }
-
 #homepage  .hero article {
   display: flex;
   align-items: center;
