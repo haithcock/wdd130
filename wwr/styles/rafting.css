@@ -337,3 +337,18 @@ main {
   height: auto;
 }
 
+#homepage .newsletter-signup button {
+  background-color: #00509e;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#homepage .newsletter-signup button:hover {
+  background-color: #003f7f;
+}
+
