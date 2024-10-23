@@ -37,6 +37,7 @@ a {
 }
 
 a:hover {
+    color: #003366;
   text-decoration: underline;
 }
 
@@ -417,12 +418,13 @@ main {
   color: #222;
 }
 #tripspage .trip-table th {
-  background-color: var(--secondary-color);
+  background-color: #333333;
   color: #ffffff;
 }
 
 #tripspage .trip-table td {
   background-color: #ffffff;
+  color: 222;
 }
 
 #tripspage .trip-table tr:nth-child(even) {
