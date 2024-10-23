@@ -424,7 +424,7 @@ main {
 
 #tripspage .trip-table td {
   background-color: #ffffff;
-  color: 222;
+  color: #222;
 }
 
 #tripspage .trip-table tr:nth-child(even) {
