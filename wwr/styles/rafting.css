@@ -418,10 +418,13 @@ main {
 }
 #tripspage .trip-table th {
   background-color: var(--secondary-color);
-  color: white;
+  color: #ffffff;
 }
 
 #tripspage .trip-table td {
   background-color: #ffffff;
 }
 
+#tripspage .trip-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
