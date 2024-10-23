@@ -408,12 +408,14 @@ main {
   border-collapse: collapse;
 }
 
-#tripspage .trip-table th, #tripspage .trip-table td {
+#tripspage .trip-table th, 
+#tripspage .trip-table td {
   border: 1px solid #c0c0c0;
   padding: 10px;
   text-align: center;
+  font-size: 1em;
+  color: #222;
 }
-
 #tripspage .trip-table th {
   background-color: var(--secondary-color);
   color: white;
