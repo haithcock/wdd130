@@ -355,3 +355,71 @@ main {
   background-color: #003f7f;
 }
 
+#tripspage .trip-descriptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+#tripspage .trip {
+  background-color: #ffffff;
+  border: 1px solid #c0c0c0;
+  border-radius: 10px;
+  width: calc(33% - 40px); /* Adjust to fit three in a row with spacing */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#tripspage .trip img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+#tripspage .trip h3 {
+  color: var(--accent1-color);
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#tripspage .trip p {
+  text-align: justify;
+  color: #333;
+}
+
+#tripspage .trip:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#tripspage .trip-table-section {
+  margin: 40px auto;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+}
+
+#tripspage .trip-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#tripspage .trip-table th, #tripspage .trip-table td {
+  border: 1px solid #c0c0c0;
+  padding: 10px;
+  text-align: center;
+}
+
+#tripspage .trip-table th {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+#tripspage .trip-table td {
+  background-color: #ffffff;
+}
+
