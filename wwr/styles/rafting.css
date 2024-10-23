@@ -31,7 +31,7 @@ nav {
 }
 
 a {
-  color: var(--primary-color);
+  color: black;
   font-weight: bold;
   text-decoration: none;
 }
